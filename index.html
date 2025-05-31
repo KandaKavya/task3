@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="Task3.css" />
+</head>
+<body>
+
+  <h1>💻 Choose a CSE Subject to Start Quiz</h1>
+
+  <div class="subjects">
+    <div class="card" data-subject="ds">Data Structures</div>
+    <div class="card" data-subject="algo">Algorithms</div>
+    <div class="card" data-subject="os">Operating Systems</div>
+    <div class="card" data-subject="cn">Computer Networks</div>
+    <div class="card" data-subject="dbms">DBMS</div>
+    <div class="card" data-subject="oop">OOP</div>
+    <div class="card" data-subject="cprog">C Programming</div>
+    <div class="card" data-subject="python">Python Programming</div>
+  </div>
+
+  <div class="quiz-container" id="quizBox">
+    <div id="quizContent">
+      <div class="question" id="questionText"></div>
+      <div class="options" id="optionsList"></div>
+      <div id="result"></div>
+      <button id="back-btn" style="display:none;">🔙 Back to Subjects</button>
+    </div>
+  </div>
+
+  <script src="Task3.js"></script>
+</body>
+</html>
